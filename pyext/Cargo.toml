@@ -1,0 +1,11 @@
+[package]
+name = "pyext"
+version = "0.1.0"
+authors = ["slothy <slothyrulez@gmail.com>"]
+
+[lib]
+name = "pyexample"
+crate-type = ["dylib"]
+
+[dependencies]
+cpython = "0.1.0"
